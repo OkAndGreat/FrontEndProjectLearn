@@ -1,0 +1,33 @@
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.banner .wrapper {
+    height: 420px;
+    background-image: url(../images/banner2.png);
+}
+
+.banner .wrapper .left {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 190px;
+    padding-left: 20px;
+    line-height: 44px;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.banner .wrapper .left span {
+    float: right;
+    margin-right: 21px;
+}
+
+.banner .wrapper .left a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.banner .left a:hover {
+    color: #00b4ff;
+}
