@@ -9,6 +9,7 @@
 }
 
 .banner .wrapper .left {
+    float: left;
     padding-top: 8px;
     padding-bottom: 8px;
     width: 190px;
@@ -30,4 +31,71 @@
 
 .banner .left a:hover {
     color: #00b4ff;
+}
+
+.banner .wrapper .right {
+    float: right;
+    height: 300px;
+    width: 228px;
+    margin-top: 50px;
+}
+
+.banner .right h2 {
+    height: 48px;
+    background-color: #9bceea;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.banner .right {
+    background-color: #ffffff;
+}
+
+.banner .right .container {
+    margin-left: 18px;
+    margin-right: 18px;
+    border-bottom: 2px #e5e5e5 solid;
+    width: 192px;
+    height: 61px;
+    padding-top: 13px;
+}
+
+.banner .right div span {
+    display: block;
+}
+
+.banner .right div span:nth-child(1) {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #4e4e4e;
+}
+
+.banner .right div span:nth-child(2) {
+    color: #a5a5a5;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+.banner .right div .content {
+    margin-left: 0;
+}
+
+.banner .right a {
+    display: block;
+    /* margin: 4px 14px 0; */
+    margin: 4px auto 0;
+    width: 200px;
+    height: 41px;
+    border: solid 1px #00a4ff;
+    text-align: center;
+    line-height: 41px;
+
+    font-size: 16px;
+    color: #00a4ff;
+    font-weight: 700;
 }

@@ -38,6 +38,7 @@ body {
 
 .nav li:hover {
     border-bottom: 2px solid #00a4ff;
+    cursor: pointer;
 }
 
 .search_input {
