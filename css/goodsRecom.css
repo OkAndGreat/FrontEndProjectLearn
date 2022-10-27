@@ -1,0 +1,68 @@
+.goodRecom {
+    margin-top: 35px;
+}
+
+.goodRecom .title {
+    height: 40px;
+}
+
+.goodRecom .title h2 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+    font-weight: 400;
+}
+
+.goodRecom .title a {
+    float: right;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.goodRecom .content ul li {
+    float: left;
+    background-color: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 228px;
+    height: 270px;
+}
+
+/*记得把第五个孩子的margin-right清空*/
+.goodRecom .content li:nth-child(5n) {
+    margin-right: 0;
+}
+
+.goodRecom .content li h3 {
+    padding: 20px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+
+.goodRecom .content li p {
+    padding: 0 20px;
+    font-size: 12px;
+    color: #999;
+}
+
+.goodRecom .content li span {
+    color: #ff7c2d;
+}
+
+.goodRecom .content li img {
+    transition: all 0.6s;
+}
+
+.goodRecom .content li .imgContainer {
+    width: 228px;
+    height: 155px;
+    overflow: hidden;
+}
+
+.goodRecom .content li img:hover {
+    transform: scale(1.4);
+}
+
+
